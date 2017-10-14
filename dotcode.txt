@@ -79,4 +79,4 @@ digraph G {
 	should->not[label="1"];
 }
 
-hello
+123
