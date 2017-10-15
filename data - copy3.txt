@@ -3,6 +3,10 @@ so many children have the problem of obesity. But
 nearly every kid like to eat fast food, because it 
 smells really good. But it is known to all that fast 
 dddddddddddddddddddddddddddd
+<<<<<<< HEAD
 dasd 
+=======
+long time will make them lose nutrition and become fat. 
+>>>>>>> C4
 So we¡¯d better stay away from fast food, or if we like 
 it so much, we should not eat it often. 

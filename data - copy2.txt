@@ -5,5 +5,9 @@ ccccccccccccccccccc
 food is not good for people¡¯s health. Eating it for a 
 long time will make them lose nutrition and become fat. 
 So we¡¯d better stay away from fast food, or if we like 
+<<<<<<< HEAD
 it so much, we should not eat it often. 
 fdsxvxcv
+=======
+it so much, we should not eat it often. 
+>>>>>>> C4
