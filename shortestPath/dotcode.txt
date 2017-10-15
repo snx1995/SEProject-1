@@ -1,0 +1,26 @@
+digraph G {
+	to->get[color= red label="6"];
+	to->seek[label="6"];
+	to->explore[label="6"];
+	explore->strange[label="6"];
+	strange->new[label="6"];
+	new->this[label="6"];
+	new->civilizations[color= red label="6"];
+	new->life[label="6"];
+	new->worlds[label="6"];
+	worlds->and[label="1"];
+	worlds->new[label="1"];
+	worlds->to[label="4"];
+	seek->out[label="6"];
+	out->to[label="5"];
+	out->new[label="6"];
+	life->new[label="1"];
+	life->and[label="5"];
+	and->hello[label="6"];
+	and->new[label="6"];
+	civilizations->to[color= red label="2"];
+	civilizations->new[label="4"];
+	this->and[label="6"];
+	hello->to[label="6"];
+	get->out[label="6"];
+}
