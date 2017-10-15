@@ -21,6 +21,6 @@ digraph G {
 	civilizations->to[label="2"];
 	civilizations->new[label="4"];
 	this->and[label="6"];
-	hello->to[label="6"];
+	asdasdasd
 	get->out[label="6"];
 }
