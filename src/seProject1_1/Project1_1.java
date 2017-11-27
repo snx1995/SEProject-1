@@ -208,7 +208,6 @@ public class Project1_1 {
 		int word_place=G.get_word_place(word1);
 		known[word_place]=true;
 		int vect_num=1;
-//		System.out.println(MaxNum);
 		for(int i=0;i<MaxNum;i++) {
 			length[i]=9999;
 		}
@@ -216,7 +215,6 @@ public class Project1_1 {
 		while(vect_num<MaxNum) {
 			G_List tmp1=G.get_lists()[word_place];
 			G_List tmp2=tmp1.next;
-//			System.out.println(vect_num);
 			while(tmp2!=null) {
 				if(length[tmp2.word_place]>length[tmp1.word_place]+tmp2.cost) {
 					length[tmp2.word_place]=length[tmp1.word_place]+tmp2.cost;
@@ -229,11 +227,7 @@ public class Project1_1 {
 			known[word_place]=true;
 			vect_num++;
 		}
-		for(int i=0;i<MaxNum;i++) {
-		System.out.println(i+":"+known[i]+" "+length[i]+" "+G.get_word(words_place[i]));
-		}
 		int word2_place=G.get_word_place(word2);
-//		System.out.println(word2_place);
 		if(length[word2_place]==9999) {
 			minPath="两单词不可达";
 			return minPath;
@@ -250,13 +244,11 @@ public class Project1_1 {
 		Map<String,String>map=new HashMap<String,String>();
 		int tmp=word2_place;
 		while(length[tmp]!=0) {
-			System.out.println(G.get_word(tmp));
 			map.put(G.get_word(words_place[tmp]),G.get_word(tmp));
 			tmp=words_place[tmp];
 		}
 		showDirectedGraph(G,map);
 		return minPath;
-		//to explore strange new worlds seek out life and civilizations this hello 
 	}
 	static int findMin(int[]length,boolean[]known,int MaxNum) {
 		int min_place=-1;
